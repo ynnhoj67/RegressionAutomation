@@ -1,0 +1,3 @@
+script:/home/atidiag/script.sh
+build_location:/home/atidiag/Source/backUp/ellesmere/ellesmere-x86_64-linux-dbg/
+cmd:./tserverlite -test=ws1.1 -d=1,2 -log

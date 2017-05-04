@@ -1,0 +1,11 @@
+SvnBuildDir:/home/johnny/Source/dbg_trunk/
+CmakeCmd:cmake .. -DPROJECT=greenland -DBUILD_TYPE=dbg -DPACKAGE=ws,virtualization,mhub,pcie,srbm
+MakeCmd:make -j8 install
+BuildFolder:vega10
+CleanBuild:FALSE
+TopRev:146789
+BotRev:147673
+TestSystemIP:10.1.37.21
+TestTime:10
+RebootTime:60
+Regression:TRUE

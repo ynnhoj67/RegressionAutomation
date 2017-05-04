@@ -1,0 +1,35 @@
+#SvnBuildDir is the directory your svn located
+#example /home/johnny/Source/trunk/
+SvnBuildDir:/home/johnny/Source/dbg_trunk/
+
+#Cmake command for building your test. 
+#example CmakeCmd:cmake .. -DPROJECT=ellesmere -DBUILD_TYPE=dbg -DPACKAGE=ws
+CmakeCmd:cmake .. -DPROJECT=greenland -DBUILD_TYPE=dbg -DPACKAGE=ws,virtualization,mhub,pcie,srbm
+
+#MakeCmd is the make command. example make -j4 install
+MakeCmd:make -j8 install
+
+#BuildFolder is the folder name of your build location, the folder name where you will run cmake and make command
+BuildFolder:vega10
+
+#CleanBuild is for make clean for each build. set to TRUE or FALSE
+CleanBuild:FALSE
+
+#TopRev is the top rev you need to test. If you want it set to TOTT, use TOTT. eg: 145680 or TOTT
+TopRev:146789
+
+#BotRev is the base rev. if use CURR to get the current rev from your svn location
+BotRev:CURR
+
+#TestSystemIP is the ip for your test system
+TestSystemIP:10.1.37.21
+
+#TestTime is the extimate time(Sec) for your test to complete
+TestTime:10
+
+#RebootTime is the time(Sec) for your test system to reboot
+RebootTime:60
+
+#Regression set to TRUE for regression, otherwise start from cur to topRev
+Regression:TRUE
+
