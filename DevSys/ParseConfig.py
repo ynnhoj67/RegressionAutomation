@@ -1,3 +1,9 @@
+"""
+ParseConfig.py
+Author: Johnny Zhang
+Date: May 2017
+
+"""
 from Libs.Utility import *
 
 class ParseConfig(object):

@@ -1,3 +1,8 @@
+"""
+RegressionClient.py
+Author: Johnny Zhang
+Date: May 2017
+"""
 from Libs.ClientSocket import ClientSocket
 from Libs.Logger import RegressionLogger
 from Libs.Utility import *

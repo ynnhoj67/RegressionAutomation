@@ -1,4 +1,8 @@
-#! /usr/bin/python
+"""
+Svn.py
+Author: Johnny Zhang
+Date: May 2017
+"""
 import pysvn,os,string
 from Libs.Utility import *
 
